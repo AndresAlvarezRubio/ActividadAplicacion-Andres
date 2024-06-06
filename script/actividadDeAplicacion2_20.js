@@ -20,17 +20,18 @@ do {
     switch (respuestaUser) {
         
         case "A": 
+
             num1 = Number(prompt("Introduce la base del Triángulo"));                    
             num2 = Number(prompt("Introduce la altura del Triángulo"));
-            console.log("Prueba 0");
 
             if (!isNaN(num1) || !isNaN(num2)) {
-                console.log("Prueba 1");
+                
                 calculo = (num1*num2/2)
                 console.log(calculo);
                 break;
                 
             }  else if (isNaN(num1) || isNaN(num2)) {
+
                 console.log("Prueba 2");
                 console.log("No se ha introducido un número");
                 break;
@@ -51,7 +52,6 @@ do {
 
                 console.log("No se ha introducido un número");
                 break;
-
             }
 
         case "C": 
@@ -68,14 +68,14 @@ do {
 
                 console.log("No se ha introducido un número");
                 break;
-
             }
             
+        case "D":
+                break;
+                
         default:
             console.log("Inputs invalidos");
 
-        case "D":
-            break;
     }
 
 
